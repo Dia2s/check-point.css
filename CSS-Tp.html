@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <title> Tp4 : CSS </title>
+    <meta charset="utf-8">
+    <style>
+        .entete{
+            position:absolute;
+            text-align: center; 
+            width: 100%; 
+            padding: 10px; 
+            background-color: green; 
+            box-shadow: 0px 10px 10px 2px rgba(0, 0, 0, 0.5)inset;
+            box-shadow: 0px 10px 10px 2px rgba(255, 255, 255, 0.5)
+        }
+
+        .entete span{
+            font-size: 40px;
+            font-weight: bold;
+        }
+       
+        .menu{
+            position:absolute;
+            text-align: center;
+            word-spacing: 25px;
+            padding: 10px;
+            top: 15%;
+            background-color: red;
+            display: inline-block;
+            width: 100%;
+        }
+        .rub{
+            text-align: left;
+             padding: 2px; 
+             margin-top: 10px; 
+             width: 95%;
+              height: 40%;
+              font-size: 14px;
+             line-height: 1.2em;
+        }
+        #gauche{
+            position:absolute;
+            top: 20%;
+        }
+
+        #center{
+            position: absolute;
+            left: 17%;
+            top: 35%;
+            width: 70%;
+            height: 60%;
+            
+
+        }
+
+        #droite{
+            top: 35%;
+            position: absolute;
+            text-align: left;
+            padding: 2px;
+            width: 15%;
+            height: 40%;
+            left: 80%;
+            font-size: 14px;
+            background-color: grey;
+            border-radius: 10px;
+            margin-top: -30px;
+
+        }
+        .paragraphe{
+            display: block; 
+            position: absolute;
+            left: 17%; 
+            top: 32%; 
+            height: 100%; 
+            width: 65%; 
+            background-color: pink;
+            border-radius: 10%; 
+            padding: 10px; 
+            overflow: scroll;
+            margin-top: -175px;
+        }
+        .rub span{
+            background-color: yellow;
+            padding-left: 45px;
+            padding-right: 45px;
+            border-radius: 10px 10px 0px 0px;
+        }
+        a{
+            text-decoration: none;
+        }
+        ul{
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="entete">
+            <img src="C:\Users\hp\Pictures\Saved Pictures\hestim.png" style="float:left;" width="50px" height="50px" >
+            <span>HESTIM Casablanca</span>
+            <img src="C:\Users\hp\Pictures\Saved Pictures\hestim2.jfif" style="float:right;" width="50px" height="50px">
+        </div>
+
+        <div class="menu">
+             <span>Accueil</span> <span>Formation<span> <span>Recherche</span> <span>Actualite</span> <span>Contact</span>
+
+        </div>
+
+    </header>
+    
+    <div>
+        <div id="gauche">
+
+            <div class="rub">
+                 <span>Rubriques</span>
+                 <ul>
+                    <li><a href="#"> Mathematique</a></li> 
+                    <li><a href="#"> Concours</a></li> 
+                    <li><a href="#"> Cours en ligne</a></li> 
+                    <li><a href="#"> Laureats</a></li> 
+                    <li><a href="#"> Appels d'offres </a></li> 
+                 </ul>
+                    
+            <br>
+
+            <div  class="rub">
+                  <span>Departements</span>
+                <ul>
+                    <li><a href="#">Genie Informatique</a></li> 
+                    <li><a href="#">Genie Industriel</a></li> 
+                    <li><a href="#">Genie Electrique</a></li> 
+                    <li><a href="#">Genie Civil</a></li> 
+                    <li><a href="#">Genie Mecanique</a></li> 
+                </ul>
+              </div>
+            </div> 
+             </div>
+        <div id="center">
+
+            <div class="paragraphe">
+                <p> <img src="htIUDK36zfqAAxXsmycCHUbcAooQMygFegQIARBg"> Située au cœur de la capitale économique du Maroc, Casablanca, École des Hautes Études des Sciences et Techniques de l’Ingénierie et du Management, est une école supérieure de haut niveau reconnue par l’État, spécialisée dans le domaine de l’Ingénierie et du Management.
+
+                    Depuis sa création en 2006, HESTIM est l’établissement d’enseignement supérieur de référence dont la mission est de former des ingénieurs experts et des leaders managers de très haut niveau capables de répondre aux besoins des entreprises à l’échelle nationale et internationale.
+                    
+                    L’école se démarque par sa qualité d’enseignement de haut niveau en développant de nouvelles connaissances et des technologies à la fine pointe et prête un fort intérêt pour les activités de recherche et l’innovation qui répondent aux grands enjeux de la société.
+                    
+                    De plus, Hestim contribue à l’essor et au développement du continent Africain par la formation des lauréats PanaAfricains provenants de divers pays subsahariens. 
+                    
+                    “ L’objectif de notre approche pédagogique est de former un capital humain de haute qualité répondant davantage aux besoins actuels et futurs des différents secteurs de l’économie nationale et internationale”, déclare Mr Abdelilah Bennis,  Directeur Général de l’école HESTIM.</p>
+            </div>
+        </div>
+
+        <div id="droite">
+
+            <form>
+                 <label name="Nom">login:</label> <input type="text" name="Nom"></input>
+                 <br>
+                 <label name="Nom">Mot de passe:</label> <input type="password" name="Nom"></input>
+                 <button>Valider</button> 
+                 <button>Annuler</button>
+                 
+
+            </form>
+        </div>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
